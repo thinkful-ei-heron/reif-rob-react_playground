@@ -8,4 +8,7 @@ import RouletteGun from './state-drills/RouletteGun';
 
 import './index.css';
 
-ReactDOM.render(<RouletteGun />, document.getElementById('root'));
+ReactDOM.render(
+  <RouletteGun bulletInChamber={8} />,
+  document.getElementById('root')
+);
